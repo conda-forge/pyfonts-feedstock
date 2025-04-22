@@ -1,6 +1,6 @@
 context:
   name: pyfonts
-  version: "0.0.2"
+  version: "1.0.0"
 
 package:
   name: ${{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/p/pyfonts/pyfonts-${{ version }}.tar.gz
-  sha256: d942ee84db70c33a0a553619a52bff6bf2091c7751648f0f7ca09c56466d254d
+  sha256: 083d6c8ad4e64d1f6275a34740c91e4d90146eabb43bf897f7bd5982d8a41da2
 
 build:
   noarch: python
@@ -27,7 +27,7 @@ requirements:
 tests:
   - python:
       imports:
-      - pyfonts
+        - pyfonts
       pip_check: true
       python_version: ${{ python_min }}.*
 
