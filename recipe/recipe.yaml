@@ -20,9 +20,11 @@ requirements:
     - python ${{ python_min }}.*
     - pip
     - setuptools
+    - setuptools-scm
   run:
     - python >=${{ python_min }}
     - matplotlib-base >=3.9.1
+    - requests
 
 tests:
   - python:
@@ -32,13 +34,13 @@ tests:
       python_version: ${{ python_min }}.*
 
 about:
-  homepage: https://github.com/JosephBARBIERDARNAL/pyfonts
+  repository: https://github.com/JosephBARBIERDARNAL/pyfonts
   summary: 'A simple (and reproducible) way to load fonts for matplotlib.'
   description: |
     A simple (and reproducible) way to load fonts for matplotlib.
   license: MIT
   license_file: LICENSE
-  documentation: https://python-graph-gallery.com/pyfonts/
+  homepage: https://python-graph-gallery.com/pyfonts/
 
 extra:
   recipe-maintainers:
