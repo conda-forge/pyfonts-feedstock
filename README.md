@@ -3,13 +3,13 @@ About pyfonts-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pyfonts-feedstock/blob/main/LICENSE.txt)
 
-Home: https://github.com/JosephBARBIERDARNAL/pyfonts
+Home: https://python-graph-gallery.com/pyfonts/
 
 Package license: MIT
 
 Summary: A simple (and reproducible) way to load fonts for matplotlib.
 
-Documentation: https://python-graph-gallery.com/pyfonts/
+Development: https://github.com/JosephBARBIERDARNAL/pyfonts
 
 A simple (and reproducible) way to load fonts for matplotlib.
 
