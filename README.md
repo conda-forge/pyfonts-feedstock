@@ -9,7 +9,7 @@ Package license: MIT
 
 Summary: A simple (and reproducible) way to load fonts for matplotlib.
 
-Development: https://github.com/JosephBARBIERDARNAL/pyfonts
+Development: https://github.com/y-sunflower/pyfonts
 
 A simple (and reproducible) way to load fonts for matplotlib.
 
