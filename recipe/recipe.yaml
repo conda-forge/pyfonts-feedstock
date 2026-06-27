@@ -1,6 +1,6 @@
 context:
   name: pyfonts
-  version: "1.4.0"
+  version: "1.4.1"
 
 package:
   name: ${{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/p/pyfonts/pyfonts-${{ version }}.tar.gz
-  sha256: 923c30e97911b0ad534f87b9650f13319a0d437e860be041bcbff72432a19013
+  sha256: ad17290747fdeb433502c44f5fde06574e27430396411a47a62319c1c2ace545
 
 build:
   noarch: python
